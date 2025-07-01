@@ -9,6 +9,8 @@ export const register = (req, res, next) => {
         4. insert user into db
         5. return response
         */
+       // 1. check body
+       const { email, name, password } = req.body;
 
         console.log(req.body);
 

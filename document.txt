@@ -2,3 +2,16 @@
 2. npm i express
 3. npm i cors morgan nodemon
 4. npm i yup (validate)
+
+// set up data
+5. npm i prisma
+    5.1 npx prisma init --datasource-provider mysql
+
+// insert data to db
+6. npx prisma migrate dev --name ตามด้วยข้อความที่ต้องการ (คล้ายการ commit ใน git)
+
+// connect prisma to db
+7. npm i @prisma/client
+
+// hash password
+8. npm i bcryptjs jsonwebtoken
